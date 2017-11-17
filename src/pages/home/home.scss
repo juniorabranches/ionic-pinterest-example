@@ -1,0 +1,16 @@
+page-home {
+    .pins{
+      column-count: 2;
+    }
+
+    .pin {
+      display: inline-block;
+      margin: 8 2px 18px;
+      padding: 5px;
+    }
+
+    .titulo{
+      color: rgb(255, 0, 0);
+      text-align: center;
+    }
+}

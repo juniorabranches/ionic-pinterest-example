@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar color="primary">
+      <ion-title>Dev</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <div class="pins">
+      <div class="pin" *ngFor="let image of images">
+        <p class="titulo">{{image.nome}}</p>
+        <img src="{{image.imagem}}" alt="">
+      </div>
+    </div>
+</ion-content>
