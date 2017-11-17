@@ -1,2 +1,5 @@
-# ionic-pinterest-example
-A simple example of pinterest style layout
+![View this](src/assets/gif.gif)
+
+# To run:
+* > npm install
+* > ionic serve -l (with live reload)
